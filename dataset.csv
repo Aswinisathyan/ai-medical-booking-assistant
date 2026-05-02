@@ -1,0 +1,799 @@
+text,intent
+I want to book a blood test,booking
+Book a CBC test tomorrow,booking
+Schedule a urine test,booking
+I need a thyroid test next week,booking
+Can I book a blood test for today,booking
+I want to schedule a glucose test,booking
+Book my lab test,booking
+Arrange a blood checkup,booking
+I need a test appointment,booking
+Can you book a test for me,booking
+Is my report ready,report_status
+Check my test result,report_status
+When will my report be available,report_status
+Can you tell my report status,report_status
+Is the lab report completed,report_status
+Has my test report come,report_status
+Give me my result status,report_status
+Report status please,report_status
+Can I get my report now,report_status
+Is my result out,report_status
+What tests are available,test_query
+Do you offer diabetes test,test_query
+List all available tests,test_query
+What is the cost of blood test,test_query
+Do you have CBC test,test_query
+Tell me test prices,test_query
+What lab tests do you provide,test_query
+Available health checkups,test_query
+Show test packages,test_query
+Do you provide thyroid test,test_query
+I want to reschedule my test,reschedule
+Change my appointment,reschedule
+Move my booking to tomorrow,reschedule
+Reschedule my test to evening,reschedule
+Can I change my test time,reschedule
+Shift my appointment,reschedule
+Reschedule my lab test,reschedule
+Change my booking date,reschedule
+Update my appointment time,reschedule
+Modify my test schedule,reschedule
+Cancel my booking,cancel
+I want to cancel my test,cancel
+Stop my appointment,cancel
+Cancel my lab test,cancel
+Please cancel my booking,cancel
+I don't need the test now,cancel
+Cancel my appointment,cancel
+Drop my test booking,cancel
+Abort my test,cancel
+Remove my appointment,cancel
+Reserve a slot for an HbA1c screening on Monday,booking
+I need to set up a Vitamin D checkup for my father,booking
+Is there a home collection slot for tomorrow morning,booking
+I'd like to book a full body checkup package,booking
+Can someone come home to take my blood sample,booking
+Book a fasting sugar test for 8 AM Friday,booking
+Need an urgent PCR test appointment today,booking
+Schedule a Liver Function Test at the Thrissur branch,booking
+I want to book an iron study and ferritin test,booking
+Can I reserve a time for a lipid profile this weekend,booking
+Need to visit for a kidney function test tomorrow,booking
+Register me for a comprehensive health screen,booking
+Book a pregnancy blood test for tomorrow morning,booking
+I want to schedule a CRP and ESR test,booking
+Arrange a nurse visit for a blood draw at my office,booking
+Can I book a double appointment for me and my wife,booking
+Need a slot for a routine CBC and urine culture,booking
+Schedule an Electrolyte panel for Wednesday,booking
+I want to book a Dengue NS1 test as soon as possible,booking
+Book a calcium and magnesium test for Saturday,booking
+Download my latest blood report,report_status
+Where can I see my laboratory results,report_status
+My booking ID is 5504 is the result generated,report_status
+I haven't received my PDF report yet,report_status
+It has been 24 hours where is my CBC result,report_status
+Check if my thyroid profile is finished,report_status
+I want to track my lab report status,report_status
+Did the lab upload my urine culture results,report_status
+Can you check the progress of my medical reports,report_status
+Why is my result still showing as pending,report_status
+Is my fasting glucose report ready to download,report_status
+I need to know if my reports are verified by the doctor,report_status
+Check status for my family's reports,report_status
+Has the lab released my allergy test results,report_status
+I am waiting for my biopsy report any update,report_status
+How much is a Vitamin B12 test here,test_query
+What is the price for a full metabolic panel,test_query
+Do you provide home sample collection services,test_query
+What are the requirements for a GTT test,test_query
+Do I need to fast for a lipid profile,test_query
+List of tests included in the Executive Package,test_query
+How long does a PCR test result take,test_query
+Are you open on Sundays for blood collection,test_query
+Do you accept insurance for lab bookings,test_query
+What is the cost of a thyroid panel vs individual TSH,test_query
+Do you have any discounts for senior citizens,test_query
+Can I get a list of all allergy tests you perform,test_query
+Is a doctor's referral mandatory for a CBC,test_query
+Tell me the location of your nearest lab,test_query
+Do you offer cardiac marker tests like Troponin,test_query
+Postpone my sugar test to next Saturday,reschedule
+I can't make it today move my slot to 11 AM tomorrow,reschedule
+Can I change my home visit to a lab visit,reschedule
+Update my booking to the Ernakulam branch instead,reschedule
+I need to push my appointment back by two hours,reschedule
+Reschedule my Vitamin D test for a later date,reschedule
+Change my fasting test to a non-fasting one if possible,reschedule
+Adjust my appointment time to earlier in the morning,reschedule
+My doctor changed my test can I update my booking,reschedule
+Can we move the phlebotomist visit to 4 PM,reschedule
+I want to delay my checkup until next month,reschedule
+I need to reschedule because I forgot to fast,reschedule
+Switch my Saturday booking to Sunday,reschedule
+I want to cancel because I already got tested elsewhere,cancel
+Please stop my home collection request,cancel
+I want a refund for my cancelled booking,cancel
+Delete my appointment for the lipid profile,cancel
+I no longer need this lab test,cancel
+My doctor told me not to take the test anymore,cancel
+Can I void my booking for tomorrow,cancel
+I am feeling better so I want to cancel the fever profile,cancel
+Remove me from the schedule for Monday,cancel
+Cancel my entire health package booking,cancel
+Stop the nurse visit for today,cancel
+I accidentally booked the wrong test please cancel it,cancel
+I can't afford the test right now please cancel,cancel
+I am traveling so I need to abort my booking,cancel
+I've been feeling very dizzy what test should I book,booking
+My hair is falling out is there a test for that,test_query
+I have a persistent fever what profile do you suggest,test_query
+I want to check my health because I feel tired all the time,booking
+Is there a test to check for hidden infections,test_query
+Can I book a test to check my immunity levels,booking
+My joints are aching do you have a bone health package,test_query
+I want a full checkup because I haven't had one in years,booking
+Is there a specific test for liver health,test_query
+I need to book a test for my visa application,booking
+Can I schedule a test for a 5-year-old child,booking
+Check if my iron levels are low,booking
+Do you have a test for food allergies,test_query
+I want to screen for diabetes symptoms,booking
+How much for a cholesterol check,test_query
+Book a test for my grandfather who is bedridden,booking
+I need a lab tech to come to my office,booking
+Can I book a test for 7 AM sharp,booking
+Is the lab open for walk-ins or do I need to book,test_query
+What is the turnaround time for a biopsy,test_query
+I need to book a test for tomorrow,booking
+Give me the status of my blood work,report_status
+Is it possible to cancel my test and get money back,cancel
+Change my 9 AM slot to 10 AM,reschedule
+Do you do blood grouping and cross-matching,test_query
+I want to book an MRI if you have it,booking
+Need to schedule a stool and urine analysis,booking
+Is the fasting period 8 or 12 hours,test_query
+Book a follow-up test for my thyroid,booking
+I need a monthly sugar checkup booked,booking
+Cancel my recurring appointment,cancel
+I want to see my old reports from last year,report_status
+Can I add another test to my current booking,reschedule
+I need to talk to a lab technician,test_query
+Book a heart health screening for tomorrow,booking
+Is there any preparation needed for a PSA test,test_query
+Can I book a test for my house help,booking
+Check my creatinine result,report_status
+Move my booking to the weekend,reschedule
+I don't want to go through with the test cancel it,cancel
+What is the price of an Electrolyte test,test_query
+Do you have home service in my area,test_query
+Schedule a CBC for me right now,booking
+Is the lab report signed by a pathologist,report_status
+I want to book a test for my infant,booking
+Can I change the test type in my booking,reschedule
+How can I pay for my booked test,test_query
+Check if my bilirubin results are out,report_status
+I want to book a fitness profile,booking
+Cancel my Vitamin B12 test booking,cancel
+Is the report available on WhatsApp,report_status
+Reschedule my lab visit to next Tuesday,reschedule
+Do you provide corporate health checkups,test_query
+Book a uric acid test for my mom,booking
+I need to check my report for any abnormalities,report_status
+How do I reschedule via this app,reschedule
+I want to cancel my daughter's blood test,cancel
+What is the difference between these two packages,test_query
+Book a consultation and a blood test,booking
+Is my lipid profile result ready yet,report_status
+Shift my appointment to the afternoon,reschedule
+I want to stop my home collection service,cancel
+Does the full body checkup include a chest X-ray,test_query
+Book a malaria test for my son,booking
+Is the report sent to my email automatically,report_status
+I want to move my appointment to 8 AM,reschedule
+Please cancel my test as I am out of town,cancel
+What are the symptoms of low Vitamin D,test_query
+Can I book a test for my brother,booking
+Is my report ready for pickup,report_status
+Reschedule my routine checkup,reschedule
+Cancel my booking for today,cancel
+Do you offer genetic testing,test_query
+Reserve a slot for an HbA1c screening on Monday,booking
+I need to set up a Vitamin D checkup for my father,booking
+Is there a home collection slot for tomorrow morning,booking
+I'd like to book a full body checkup package,booking
+Can someone come home to take my blood sample,booking
+Book a fasting sugar test for 8 AM Friday,booking
+Need an urgent PCR test appointment today,booking
+Schedule a Liver Function Test at the Thrissur branch,booking
+I want to book an iron study and ferritin test,booking
+Can I reserve a time for a lipid profile this weekend,booking
+Need to visit for a kidney function test tomorrow,booking
+Register me for a comprehensive health screen,booking
+Book a pregnancy blood test for tomorrow morning,booking
+I want to schedule a CRP and ESR test,booking
+Arrange a nurse visit for a blood draw at my office,booking
+Can I book a double appointment for me and my wife,booking
+Need a slot for a routine CBC and urine culture,booking
+Schedule an Electrolyte panel for Wednesday,booking
+I want to book a Dengue NS1 test as soon as possible,booking
+Book a calcium and magnesium test for Saturday,booking
+Download my latest blood report,report_status
+Where can I see my laboratory results,report_status
+My booking ID is 5504 is the result generated,report_status
+I haven't received my PDF report yet,report_status
+It has been 24 hours where is my CBC result,report_status
+Check if my thyroid profile is finished,report_status
+I want to track my lab report status,report_status
+Did the lab upload my urine culture results,report_status
+Can you check the progress of my medical reports,report_status
+Why is my result still showing as pending,report_status
+Is my fasting glucose report ready to download,report_status
+I need to know if my reports are verified by the doctor,report_status
+Check status for my family's reports,report_status
+Has the lab released my allergy test results,report_status
+I am waiting for my biopsy report any update,report_status
+How much is a Vitamin B12 test here,test_query
+What is the price for a full metabolic panel,test_query
+Do you provide home sample collection services,test_query
+What are the requirements for a GTT test,test_query
+Do I need to fast for a lipid profile,test_query
+List of tests included in the Executive Package,test_query
+How long does a PCR test result take,test_query
+Are you open on Sundays for blood collection,test_query
+Do you accept insurance for lab bookings,test_query
+What is the cost of a thyroid panel vs individual TSH,test_query
+Do you have any discounts for senior citizens,test_query
+Can I get a list of all allergy tests you perform,test_query
+Is a doctor's referral mandatory for a CBC,test_query
+Tell me the location of your nearest lab,test_query
+Do you offer cardiac marker tests like Troponin,test_query
+Postpone my sugar test to next Saturday,reschedule
+I can't make it today move my slot to 11 AM tomorrow,reschedule
+Can I change my home visit to a lab visit,reschedule
+Update my booking to the Ernakulam branch instead,reschedule
+I need to push my appointment back by two hours,reschedule
+Reschedule my Vitamin D test for a later date,reschedule
+Change my fasting test to a non-fasting one if possible,reschedule
+Adjust my appointment time to earlier in the morning,reschedule
+My doctor changed my test can I update my booking,reschedule
+Can we move the phlebotomist visit to 4 PM,reschedule
+I want to delay my checkup until next month,reschedule
+I need to reschedule because I forgot to fast,reschedule
+Switch my Saturday booking to Sunday,reschedule
+I want to cancel because I already got tested elsewhere,cancel
+Please stop my home collection request,cancel
+I want a refund for my cancelled booking,cancel
+Delete my appointment for the lipid profile,cancel
+I no longer need this lab test,cancel
+My doctor told me not to take the test anymore,cancel
+Can I void my booking for tomorrow,cancel
+I am feeling better so I want to cancel the fever profile,cancel
+Remove me from the schedule for Monday,cancel
+Cancel my entire health package booking,cancel
+Stop the nurse visit for today,cancel
+I accidentally booked the wrong test please cancel it,cancel
+I can't afford the test right now please cancel,cancel
+I am traveling so I need to abort my booking,cancel
+I've been feeling very dizzy what test should I book,booking
+My hair is falling out is there a test for that,test_query
+I have a persistent fever what profile do you suggest,test_query
+I want to check my health because I feel tired all the time,booking
+Is there a test to check for hidden infections,test_query
+Can I book a test to check my immunity levels,booking
+My joints are aching do you have a bone health package,test_query
+I want a full checkup because I haven't had one in years,booking
+Is there a specific test for liver health,test_query
+I need to book a test for my visa application,booking
+Can I schedule a test for a 5-year-old child,booking
+Check if my iron levels are low,booking
+Do you have a test for food allergies,test_query
+I want to screen for diabetes symptoms,booking
+How much for a cholesterol check,test_query
+Book a test for my grandfather who is bedridden,booking
+I need a lab tech to come to my office,booking
+Can I book a test for 7 AM sharp,booking
+Is the lab open for walk-ins or do I need to book,test_query
+What is the turnaround time for a biopsy,test_query
+I need to book a test for tomorrow,booking
+Give me the status of my blood work,report_status
+Is it possible to cancel my test and get money back,cancel
+Change my 9 AM slot to 10 AM,reschedule
+Do you do blood grouping and cross-matching,test_query
+I want to book an MRI if you have it,booking
+Need to schedule a stool and urine analysis,booking
+Is the fasting period 8 or 12 hours,test_query
+Book a follow-up test for my thyroid,booking
+I need a monthly sugar checkup booked,booking
+Cancel my recurring appointment,cancel
+I want to see my old reports from last year,report_status
+Can I add another test to my current booking,reschedule
+I need to talk to a lab technician,test_query
+Book a heart health screening for tomorrow,booking
+Is there any preparation needed for a PSA test,test_query
+Can I book a test for my house help,booking
+Check my creatinine result,report_status
+Move my booking to the weekend,reschedule
+I don't want to go through with the test cancel it,cancel
+What is the price of an Electrolyte test,test_query
+Do you have home service in my area,test_query
+Schedule a CBC for me right now,booking
+Is the lab report signed by a pathologist,report_status
+I want to book a test for my infant,booking
+Can I change the test type in my booking,reschedule
+How can I pay for my booked test,test_query
+Check if my bilirubin results are out,report_status
+I want to book a fitness profile,booking
+Cancel my Vitamin B12 test booking,cancel
+Is the report available on WhatsApp,report_status
+Reschedule my lab visit to next Tuesday,reschedule
+Do you provide corporate health checkups,test_query
+Book a uric acid test for my mom,booking
+I need to check my report for any abnormalities,report_status
+How do I reschedule via this app,reschedule
+I want to cancel my daughter's blood test,cancel
+What is the difference between these two packages,test_query
+Book a consultation and a blood test,booking
+Is my lipid profile result ready yet,report_status
+Shift my appointment to the afternoon,reschedule
+I want to stop my home collection service,cancel
+Does the full body checkup include a chest X-ray,test_query
+Book a malaria test for my son,booking
+Is the report sent to my email automatically,report_status
+I want to move my appointment to 8 AM,reschedule
+Please cancel my test as I am out of town,cancel
+What are the symptoms of low Vitamin D,test_query
+Can I book a test for my brother,booking
+Is my report ready for pickup,report_status
+Reschedule my routine checkup,reschedule
+Cancel my booking for today,cancel
+Do you offer genetic testing,test_query
+Can I get a phlebotomist to come to my apartment at 6 AM,booking
+I'd like to reserve the Senior Citizen Diamond package for my grandma,booking
+Book a fasting glucose and a post-prandial test for tomorrow,booking
+Schedule a complete electrolyte and kidney panel ASAP,booking
+I need to book a blood draw for a 2-year-old kid,booking
+Reserve a spot for a routine CBC at your Kochi branch,booking
+Is there a home collection slot available for this Sunday,booking
+Setting up a thyroid profile for my mother-in-law,booking
+I want to book an allergy panel for dust and pollen,booking
+Schedule a nurse visit for a blood test at my office location,booking
+Book a malaria and dengue screening for my son right now,booking
+I need to schedule a follow-up test for my hemoglobin levels,booking
+Can I book a double appointment for me and my roommate at 10am,booking
+I want to register for the comprehensive metabolic panel,booking
+Set up a vitamin D3 and B12 checkup for Saturday morning,booking
+Is my biopsy report ready? It's been five days,report_status
+I can't see my lab results on the dashboard,report_status
+Check if my father's lipid profile is finished,report_status
+Did the lab release my urine culture results yet,report_status
+I am waiting for my PDF report on WhatsApp,report_status
+Why is my blood group result still showing as pending,report_status
+Has the doctor verified my CBC report,report_status
+I need to download my medical records from last month,report_status
+Check status for booking ID 8821,report_status
+Is the lab report ready for pickup at the counter,report_status
+Is there a discount on full body checkups for students,test_query
+Do I need to stop my blood pressure meds before the test,test_query
+How long should I fast for a liver function test,test_query
+What is the price of a private PCR test for travel,test_query
+Do you offer home collection in the Punyakulam area,test_query
+What tests are included in the 'Fever Profile',test_query
+Can I drink water before my fasting sugar test,test_query
+Is a doctor's sign-off needed for a pregnancy test,test_query
+What is your lab's opening time on weekdays,test_query
+Do you accept international insurance cards,test_query
+I need to push my 9 AM slot to 1 PM because of work,reschedule
+Can I change my home visit to a walk-in at the lab,reschedule
+Reschedule my Vitamin D test to next month please,reschedule
+I accidentally booked for Friday but I meant Saturday,reschedule
+Can we move the technician visit to a later time,reschedule
+Change the patient name in my current booking,reschedule
+I want to move my appointment to your Thrissur branch,reschedule
+Postpone my health checkup until I get my referral,reschedule
+Update my slot to 7 AM so I can go to work after,reschedule
+Can I add a thyroid test to my existing booking for today,reschedule
+I want to cancel because I found a cheaper lab elsewhere,cancel
+Please stop the home collection I will come to the lab,cancel
+I want to cancel my booking and get my money back,cancel
+My doctor told me this test isn't required anymore,cancel
+Please remove my appointment for the lipid profile,cancel
+I'm moving out of the city so cancel my upcoming tests,cancel
+I don't need the urine culture anymore please abort,cancel
+Cancel my entire family booking for this weekend,cancel
+Stop the nurse visit I am not feeling well today,cancel
+I made a mistake while booking please delete it,cancel
+How do I pay for my lab test online,payment_query
+Is there an extra charge for home sample collection,payment_query
+My payment failed but the money was debited from my bank,payment_query
+Can I pay by cash when the technician comes home,payment_query
+Do you accept Google Pay or UPI at the center,payment_query
+What is the refund policy for cancelled tests,payment_query
+I need a GST invoice for my medical test,payment_query
+Is the price on the app inclusive of taxes,payment_query
+How is the weather in Kerala today,out_of_scope
+Can you book a taxi for me to the lab,out_of_scope
+I want to order some medicine online,out_of_scope
+Tell me a joke to distract me from the needle,out_of_scope
+Who is the best doctor for heart problems,out_of_scope
+I need to check my flight status,out_of_scope
+What's the capital of France,out_of_scope
+How do I use this app to chat with friends,out_of_scope
+Book a CBC but make it quick I'm in a rush,booking
+Reschedule my sugar test but only if it's free,reschedule
+Check my report... actually nevermind I'll wait,report_status
+I want to cancel... no wait keep it for now,reschedule
+Is the lab near the big temple open today,test_query
+Book a test for my neighbor's kid,booking
+I need a report status check for my previous visit,report_status
+Tell me the cost of a full body scan,test_query
+Can I change the date to the 15th of May,reschedule
+I need to cancel my appointment right now,cancel
+Need cbc for tmrw mrng 7am,booking
+Bok a fastng sugar test at home,booking
+i want to book checkup... wait can u do home collection in Thrissur?,booking
+Urgent dengue test needed today,booking
+My doc suggested LFT and KFT... how to schedule?,booking
+want to book a test for my son he has high fever,booking
+Booking for lipid profile for Saturday... pls confirm,booking
+Can I get a nurse to Punyakulam for blood draw?,booking
+Need to set up a vit d checkup asap,booking
+Book test for my wife 10am monday,booking
+I need to check my iron levels... can I come today?,booking
+Hb1ac test booking for my dad,booking
+Schedule a routine urine n blood test for me,booking
+Hey I need to book a thyroid scan for tmrw,booking
+Is there a slot for calcium test at 8am?,booking
+Reserve a full body checkup for 2 people,booking
+Need to book a blood culture test for my baby,booking
+Can I book a test for 11pm tonight?,booking
+I want to schedule a cardiac profile,booking
+Registering for the basic health package,booking
+repurt status pls,report_status
+is my result ready? booking id 4452,report_status
+why is my cbc taking so long?,report_status
+I didnt get my reports on mail yet,report_status
+check if my thyroid result is verified,report_status
+report status for Ashwini,report_status
+waiting for my results since morning... any update?,report_status
+can u check my glucose result status,report_status
+is the lab done with my urine report?,report_status
+i want to download my report pdf,report_status
+tracking my family report results,report_status
+did my biopsy result come out?,report_status
+how to see my old reports in this app?,report_status
+report ready or not?,report_status
+checking status for test taken yesterday,report_status
+my result is pending... why?,report_status
+can u send report on whatsapp,report_status
+is my lipid profile finished?,report_status
+status of my blood test taken at Thrissur branch,report_status
+where is my report?,report_status
+how much for sugar test?,test_query
+do i need to fast for hba1c?,test_query
+cost of vitamin d test in kerala,test_query
+difference between fasting and pp sugar,test_query
+do u take insurance for lab tests?,test_query
+is your lab open on sunday?,test_query
+what is included in fever profile?,test_query
+how long for pcr results?,test_query
+any discount for senior citizens?,test_query
+is doc prescription needed for cbc?,test_query
+what are the requirements for t3 t4 tsh?,test_query
+do u do home collection in kochi?,test_query
+price of full body checkup package,test_query
+can i drink water before blood test?,test_query
+where is your lab in thrissur?,test_query
+list all available health packages,test_query
+is thyroid test done on empty stomach?,test_query
+how many hours fasting for lipid?,test_query
+tell me test charges,test_query
+do u have allergy testing?,test_query
+chng my appntmnt to sunday,reschedule
+can i move my 8am slot to 10am?,reschedule
+reschedule my cbc to next week,reschedule
+shift my home collection to evening,reschedule
+i want to change the date of my test,reschedule
+move my booking to thrissur branch,reschedule
+postpone my sugar test... i ate food by mistake,reschedule
+can we change the time to 4pm?,reschedule
+reschedule my dad's checkup for tomorrow,reschedule
+i cant make it today... move to friday,reschedule
+update my slot for thyroid test,reschedule
+change my 9am booking to 11am,reschedule
+need to reschedule my lab visit,reschedule
+can i change the test in my booking?,reschedule
+switch my booking to kochi lab,reschedule
+can i move my test to another day?,reschedule
+reschedule for 8th may morning,reschedule
+change my slot please,reschedule
+i want to delay my checkup,reschedule
+can we push the time back 1 hour?,reschedule
+cncl my bking,cancel
+i dont want to do the test... cancel it,cancel
+stop my home visit for today,cancel
+cancel my booking for tomorrow,cancel
+refund my money for the cancelled test,cancel
+doctor told no need of test... cancel appntmnt,cancel
+delete my thyroid test booking,cancel
+i found another lab... cancel this,cancel
+cancel my entire family booking,cancel
+not coming today pls cancel,cancel
+cancel my liver profile booking,cancel
+i am feeling better now so cancel test,cancel
+abort my test booking,cancel
+remove my name from the list for tomorrow,cancel
+i want to stop the collection service,cancel
+cancel my cbc booking right now,cancel
+i made a mistake cancel it,cancel
+no longer need the lab test,cancel
+please cancel my appointment,cancel
+stop the technician from coming,cancel
+how to pay online?,payment_query
+u take gpay?,payment_query
+payment failed but money deducted,payment_query
+can i pay cash at lab?,payment_query
+what is the cost including tax?,payment_query
+is home collection free?,payment_query
+how to get refund for cancelled test?,payment_query
+send me the bill for my test,payment_query
+bill for booking id 1234,payment_query
+price is too high any discount?,payment_query
+hello how r u,out_of_scope
+tell me a story,out_of_scope
+weather today in thrissur,out_of_scope
+can i book a flight here?,out_of_scope
+i need a plumber,out_of_scope
+what is the time now?,out_of_scope
+help me with my homework,out_of_scope
+bye see u later,out_of_scope
+"I'd like to reserve a slot for a total cholesterol test this weekend",booking
+"Need to set up a home collection for my mother's routine checkup",booking
+"Book a blood test for malaria as I have a high fever",booking
+"Can I schedule a Vitamin D screening for tomorrow morning at 8",booking
+"I want to book an iron study test because I feel very tired",booking
+"Setting up a phlebotomist visit to my office in Kochi",booking
+"Reserve a spot for a comprehensive metabolic panel for Saturday",booking
+"I need to book a thyroid profile for my sister",booking
+"Can someone come to Punyakulam for a blood sample collection",booking
+"Schedule a fasting glucose and a CBC for me tomorrow",booking
+"Booking a pediatric blood test for my 3-year-old son",booking
+"I want to register for the 'Executive Health Package'",booking
+"Book a lipid profile and liver function test for Friday",booking
+"Can I book a double appointment for me and my wife at 9 am",booking
+"Need to schedule a post-op blood test for my grandfather",booking
+"I want to track my lab results... why is it still pending",report_status
+"Is my blood group report ready for download",report_status
+"Check the status of my thyroid test taken at the Thrissur branch",report_status
+"Did the lab upload my urine culture results yet",report_status
+"I haven't received my PDF report on my registered email",report_status
+"Can you tell me if my biopsy result is verified by the doctor",report_status
+"Check progress for booking ID 99281",report_status
+"Is the report available for pickup at the counter now",report_status
+"I need an update on my family's COVID report status",report_status
+"Why can't I see my lab report in the app history",report_status
+"Give me the status of my fasting sugar results",report_status
+"Is my creatinine report finished yet",report_status
+"I am waiting for my results... it has been over 24 hours",report_status
+"Check if the pathology lab has released my allergy reports",report_status
+"What is the cost of a Vitamin B12 test here",test_query
+"Do I need to fast for 12 hours before a lipid profile",test_query
+"Is your lab open on Sundays for blood collection",test_query
+"What are the requirements for a pregnancy blood test",test_query
+"How long does it take for a PCR test result to come",test_query
+"Do you provide home sample collection in the Kunnamkulam area",test_query
+"What is included in the 'Fever Profile' package",test_query
+"Can I drink water before a fasting blood sugar test",test_query
+"Do you offer any senior citizen discounts on health packages",test_query
+"Is a doctor's referral mandatory for a routine CBC",test_query
+"Tell me the price of an HbA1c test in Kochi",test_query
+"What is the difference between a mini and mega checkup",test_query
+"Do you accept international insurance for lab tests",test_query
+"List all available allergy screening tests",test_query
+"Are there any special instructions for a stool analysis",test_query
+"Move my appointment from tomorrow to next Tuesday",reschedule
+"I can't make it at 9 am... can I come at 11 am instead",reschedule
+"Reschedule my home collection for a later date",reschedule
+"Can I change the location from Kochi to the Thrissur branch",reschedule
+"Push my sugar test to tomorrow because I ate food by mistake",reschedule
+"Update my booking to include a thyroid test as well",reschedule
+"Change my slot for the Vitamin D checkup please",reschedule
+"Can we shift the phlebotomist visit to the afternoon",reschedule
+"I need to reschedule because I'm stuck in traffic",reschedule
+"Modify my appointment time to 7 AM sharp",reschedule
+"I missed my slot... please rebook me for today evening",reschedule
+"Reschedule my mom's lab visit to this coming weekend",reschedule
+"Can I change the patient name in my existing booking",reschedule
+"Postpone my checkup until I get my new prescription",reschedule
+"I want to cancel... I'm feeling better now",cancel
+"Please stop the technician from coming to my house",cancel
+"Cancel my booking and initiate a full refund",cancel
+"I found a different lab... please cancel my appointment",cancel
+"My doctor told me the test isn't necessary anymore",cancel
+"Void my booking for tomorrow morning please",cancel
+"I want to cancel because I am traveling out of town",cancel
+"Remove my name from the schedule for the lipid profile",cancel
+"Stop the home collection service for today",cancel
+"I made a mistake while booking... please delete it",cancel
+"I can't afford the test right now... please cancel",cancel
+"Cancel my entire family booking for Saturday",cancel
+"I don't need the urine test anymore... cancel it",cancel
+"Please abort my request for a lab visit",cancel
+"How do I pay using UPI or GPay in the app",payment_query
+"Is there an extra charge for home collection service",payment_query
+"My payment failed but money was debited from my bank",payment_query
+"Can I pay by cash at the lab counter",payment_query
+"What is the refund process for a cancelled test",payment_query
+"I need a GST invoice for my medical checkup",payment_query
+"Is the price on the app inclusive of all taxes",payment_query
+"Can I pay using a credit card at the center",payment_query
+"Tell me a joke to cheer me up",out_of_scope
+"What is the weather like in Kerala today",out_of_scope
+"Who is the best cardiologist in Thrissur",out_of_scope
+"I need help with my college computer project",out_of_scope
+"Can you book a taxi to the lab for me",out_of_scope
+"I want to order some medicines online",out_of_scope
+"What is the latest news about AI",out_of_scope
+"How do I cook a traditional Kerala Sadhya",out_of_scope
+"Need CBC tmrw 8am",booking
+"Book sugar test fastng home collection",booking
+"Want to check thyroid levels... how to book?",booking
+"Resrv slot for blood draw friday",booking
+"Scedule my monthly checkup for monday",booking
+"repurt status check",report_status
+"is my result out yet?",report_status
+"check my cbc report progress",report_status
+"where is my result pdf?",report_status
+"did lab finish my urine report?",report_status
+"how much for vit d test?",test_query
+"price of lipid profile kochi",test_query
+"do i need fastng for cbc?",test_query
+"list all health packages",test_query
+"lab timing on sunday?",test_query
+"move my slot to 10am",reschedule
+"chng date to tomorrow",reschedule
+"push my appntmnt to weekend",reschedule
+"rescedule my lab visit",reschedule
+"update booking time pls",reschedule
+"cncl my bking",cancel
+"not coming today pls cancel",cancel
+"delete my appntmnt",cancel
+"cancel my lab test",cancel
+"refund my money pls",cancel
+"Book an Electrolyte panel for tomorrow morning",booking
+"I need to schedule a PSA test for my father",booking
+"Can I get a nurse to my apartment for a blood draw",booking
+"Schedule a Kidney Function Test for this Wednesday",booking
+"Register me for the Fever Profile screening",booking
+"Check if my Liver Function results are ready",report_status
+"Status of my iron study report please",report_status
+"Did my hemoglobin results come back from the lab",report_status
+"Track my family booking report status",report_status
+"Is the biopsy report verified by the pathologist",report_status
+"What's the cost of a Dengue NS1 test",test_query
+"Do you do home collection in Ernakulam district",test_query
+"Turnaround time for a thyroid profile result",test_query
+"Preparation needed for a uric acid test",test_query
+"Are there discounts for group bookings",test_query
+"Change my home visit to next Monday afternoon",reschedule
+"Switch my booking from Thrissur to Kochi lab",reschedule
+"Reschedule my urine culture for tomorrow",reschedule
+"Can I move my appointment to 7 AM sharp",reschedule
+"Update my booking for the routine blood check",reschedule
+"Please cancel my appointment for the lipid profile",cancel
+"My doctor cancelled the test... please delete booking",cancel
+"I'm not in town... cancel my lab visit",cancel
+"I found a cheaper lab... cancel my slot",cancel
+"Abort my request for the Vitamin D test",cancel
+"How to pay via GPay?",payment_query
+"Is sample collection fee extra?",payment_query
+"Payment failed help me",payment_query
+"Can I pay after the test?",payment_query
+"How to get the bill?",payment_query
+"Who won the match today?",out_of_scope
+"Help me with my MCA assignment",out_of_scope
+"What time is it?",out_of_scope
+"I'm feeling bored tell me a story",out_of_scope
+"How to reach the lab?",out_of_scope
+"Need to schedule a total cholesterol check at the Thrissur branch on the 10th",booking
+"I want a home collection in Kadikkad for my father’s fasting glucose",booking
+"Book a blood test for malaria—I've had a high fever since last night",booking
+"Is there a slot for a routine CBC tomorrow morning around 7:30",booking
+"Reserve a spot for a comprehensive metabolic panel for Saturday morning",booking
+"I'd like to book a Vitamin D and B12 checkup as I’m feeling very weak",booking
+"Set up a phlebotomist visit to my office in Kochi at 2 PM",booking
+"Schedule a thyroid profile for my sister—does she need to fast",booking
+"I need to book a medical for my visa application for tomorrow",booking
+"Can I schedule an urgent PCR test for this afternoon",booking
+"Register me for the Executive Health Package including heart markers",booking
+"Book a double appointment for me and my wife for a lipid profile",booking
+"I need a lab tech to come home for my bedridden grandfather’s blood work",booking
+"Setting up a monthly dialysis profile check for Monday",booking
+"Book a stool and urine analysis for my 4-year-old child",booking
+"Need to book a follow-up sugar test for next Wednesday",booking
+"I want to reserve a slot for a biopsy collection... how to do that",booking
+"Schedule a nurse visit to collect blood samples for my whole family",booking
+"I need a Dengue NS1 test immediately—please book a slot",booking
+"Booking a routine blood count and electrolyte panel for Friday",booking
+"Check the status of my report—booking ID is 10928",report_status
+"Why is my thyroid result still pending after two days",report_status
+"Did the lab upload my urine culture results to the app yet",report_status
+"I haven't received my PDF report on WhatsApp—can you check",report_status
+"Is my blood group and Rh factor report ready for pickup",report_status
+"My doctor is asking for my CBC—is the result verified yet",report_status
+"Check progress for the fasting sugar test taken at the Kochi lab",report_status
+"Is the biopsy report ready? It's been over 72 hours",report_status
+"Track the status of my family's metabolic panel results",report_status
+"Where can I find the download link for my medical reports",report_status
+"Is my creatinine report finished or still in progress",report_status
+"I need an update on my father's liver function test status",report_status
+"Why can't I see my previous lab reports in the history section",report_status
+"Tell me if my report has been signed by the pathologist",report_status
+"I am waiting for my allergy test results—are they out",report_status
+"What is the cost of a full Vitamin D and B12 profile here",test_query
+"Do I need to fast for 12 hours before a lipid profile test",test_query
+"Are there any special instructions for a morning urine sample",test_query
+"How long does it take to get the results for a PCR test",test_query
+"Do you offer home sample collection in rural Thrissur areas",test_query
+"What is the difference between a mini and mega health checkup",test_query
+"Is your lab open on public holidays like Onam or Vishu",test_query
+"Do you have a package specifically for heart and kidney health",test_query
+"Is a doctor's prescription mandatory for a routine blood count",test_query
+"Tell me the price for a comprehensive metabolic panel in Kochi",test_query
+"What tests are included in the 'Fever Profile' for adults",test_query
+"Can I drink black tea or coffee before my fasting sugar test",test_query
+"Do you provide discounts for senior citizens or students",test_query
+"Is the report valid for international travel and visa purposes",test_query
+"How many hours of fasting is required for a TSH test",test_query
+"I need to move my Monday appointment to Wednesday morning",reschedule
+"Can I change the location from Kochi to the Thrissur branch",reschedule
+"I ate food by mistake—can I push my fasting test to tomorrow",reschedule
+"Reschedule my home collection slot from 10 AM to 4 PM",reschedule
+"Please move my Vitamin D test to next Saturday instead",reschedule
+"Can I add a thyroid profile to my existing booking for today",reschedule
+"Update my appointment to include my brother for a CBC test",reschedule
+"I missed my slot this morning—can I come in the evening",reschedule
+"I want to change my lab visit to a home sample collection",reschedule
+"Postpone my routine checkup until I get my doctor's referral",reschedule
+"Change the patient name in my current booking for the lipid test",reschedule
+"Can we shift the phlebotomist visit to my workplace address",reschedule
+"I need to reschedule because I'm stuck in heavy traffic",reschedule
+"Modify my booking time to 7 AM sharp so I can get to work",reschedule
+"Reschedule my mother's blood work to this coming weekend",reschedule
+"Cancel my entire booking—I found a lab with faster results",cancel
+"Please stop the technician from coming to my house today",cancel
+"I want a full refund for my cancelled metabolic panel",cancel
+"My doctor said the thyroid test isn't necessary anymore",cancel
+"I want to cancel because I am traveling out of the state",cancel
+"Remove my name from the schedule for the lipid profile",cancel
+"I made a mistake in the booking—please delete it right away",cancel
+"I don't need the urine culture test anymore—please cancel",cancel
+"Abort my request for the home sample collection service",cancel
+"I can't afford the test right now—please cancel my booking",cancel
+"Cancel my appointment because the lab is too far for me",cancel
+"Stop the nurse visit—I’m feeling better and don't need it",cancel
+"I accidentally booked twice—please remove the second one",cancel
+"Void my booking for tomorrow morning as I have a conflict",cancel
+"Cancel my family health package for this Saturday",cancel
+"How do I pay using GPay or UPI on this platform",payment_query
+"Is there a convenience fee for doorstep sample collection",payment_query
+"The app debited money but my booking isn't showing up",payment_query
+"Can I pay by credit card at the collection center",payment_query
+"What is the refund policy for a cancelled lab appointment",payment_query
+"I need an official GST invoice for my medical checkup",payment_query
+"Is the pricing on the app inclusive of all service taxes",payment_query
+"Can I pay cash to the phlebotomist at my home",payment_query
+"Who is the current Prime Minister of India",out_of_scope
+"Tell me a story about a brave doctor in Kerala",out_of_scope
+"What is the weather forecast for Thrissur today",out_of_scope
+"How do I apply for an MCA at GEC Thrissur",out_of_scope
+"Can you help me with a LaTeX error in my report",out_of_scope
+"I need to order some organic groceries online",out_of_scope
+"Who won the last IPL match",out_of_scope
+"What's the best way to learn Machine Learning",out_of_scope
+"Need sugar test tmrw 8am home delivery",booking
+"repurt status check pls",report_status
+"chng my appntmnt to sunday",reschedule
+"cncl my bking for cbc",cancel
+"how much for vit d in kochi",test_query
