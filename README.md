@@ -55,43 +55,46 @@ Scheduler → Sends Reminder Notifications
 
 ## 🛠 Tech Stack
 
-💻 Programming & Frameworks
-
-Python – Core backend development
-Flask – Web framework for webhook handling and routing
-HTML / CSS – User interface for admin dashboard
-
-🤖 Machine Learning
-
-Model Type: Supervised Classification
-Algorithms: Logistic Regression / Multinomial Naive Bayes
-Library: Scikit-learn
-Feature Extraction: TF-IDF Vectorizer
-
-🧠 Natural Language Processing (NLP)
-
-Text preprocessing (tokenization, normalization)
-Rule-based and ML-assisted response generation
-Entity extraction (date & time parsing from user input)
-
-⚡ AI / LLM Integration
-
-Groq API (LLM) – Handles complex or low-confidence queries
-Provides dynamic, context-aware responses
-
-🗄 Database
-
-SQLite – Lightweight database for storing booking data (lab.db)
-
-📡 APIs & Integration
-
-WhatsApp Cloud API – Enables real-time conversational interface
-
-🔔 Scheduling & Automation
-
-Python-based scheduler for automated reminders and notification
+###  Programming & Frameworks
+- **Python** – Core backend development  
+- **Flask** – Web framework for webhook handling and routing  
+- **HTML / CSS** – User interface for admin dashboard  
 
 ---
+
+###  Machine Learning
+- **Model Type:** Supervised Classification  
+- **Algorithms:** Logistic Regression / Multinomial Naive Bayes  
+- **Library:** Scikit-learn  
+- **Feature Extraction:** TF-IDF Vectorizer  
+
+---
+
+###  Natural Language Processing (NLP)
+- Text preprocessing (tokenization, normalization)  
+- Rule-based and ML-assisted response generation  
+- Entity extraction (date & time parsing from user input)  
+
+---
+
+###  AI / LLM Integration
+- **Groq API (LLM)** – Handles complex or low-confidence queries  
+- Provides dynamic, context-aware responses  
+
+---
+
+###  Database
+- **SQLite** – Lightweight database for storing booking data (`lab.db`)  
+
+---
+
+###  APIs & Integration
+- **WhatsApp Cloud API** – Enables real-time conversational interface  
+
+---
+
+### Scheduling & Automation
+- Python-based scheduler for automated reminders and notifications  
 
 ##  Installation & Setup
 
